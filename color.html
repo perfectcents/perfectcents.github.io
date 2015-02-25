@@ -1,0 +1,63 @@
+<!--The MIT License (MIT)
+
+Copyright (c) 2013 Rakshith
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
+
+<!doctype html>
+<html>
+<head>
+    <title>Design A Dollar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+<script src="color.js"></script>
+        <link href="color.css"rel="stylesheet"type="text/css"/>
+
+
+</head>
+<body>
+<div id="page">
+    <div class="header">
+		<a id="new" class="navbtn" onclick="newCanvas()">New</a>
+        <a id="back" class="navbtn" onclick="history.go(-1);">Back to Perfect Cents!</a>
+
+        <div class="title">Make Your Own Dollar Here!</div>
+    </div>
+    <div id="content"><p style="text-align:center">Loading Canvas...</p></div>
+    <div class="footer">
+		<div class="palette-case">
+			<div class="palette-box">
+				<div class="palette white" onclick="selectColor(this)"></div>
+			</div>	
+			<div class="palette-box">
+				<div class="palette red" onclick="selectColor(this)"></div>
+			</div>
+			<div class="palette-box">
+				<div class="palette blue" onclick="selectColor(this)"></div>
+			</div>
+			<div class="palette-box">
+				<div class="palette green" onclick="selectColor(this)"></div>
+			</div>
+			<div class="palette-box">
+				<div class="palette black" onclick="selectColor(this)"></div>
+			</div>		
+			<div style="clear:both"></div>
+		</div>
+    </div>
+</div> 
+</body>
+</html>

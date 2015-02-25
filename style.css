@@ -1,0 +1,478 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color:#fff;
+	color:#333;
+	font-size:30px;
+}
+ 
+#home {
+background: url("images/back.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-origin: initial;
+background-clip: initial;
+background-position:100% 0;
+position:relative;
+min-height:1200px;
+background-color:#fff;
+}
+ 
+ @media (max-width: 500px) {
+   #home{ 
+background: url("images/back.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-origin: initial;
+background-clip: initial;
+background-position:100% 0;
+position:relative;
+min-height:200px;
+background-color:#fff;
+   }
+
+}
+
+@media (max-width: 600px) {
+   #home{ 
+background: url("images/back.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-origin: initial;
+background-clip: initial;
+background-position:100% 0;
+position:relative;
+min-height:450px;
+background-color:#fff;
+   }
+
+}
+
+@media (max-width: 700px) {
+   #home{ 
+background: url("images/back.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-origin: initial;
+background-clip: initial;
+background-position:100% 0;
+position:relative;
+min-height:500px;
+background-color:#fff;
+   }
+
+}
+
+@media (max-width: 1000px) {
+   #home{ 
+background: url("images/back.jpg") no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-origin: initial;
+background-clip: initial;
+background-position:100% 0;
+position:relative;
+min-height:980px;
+background-color:#fff;
+   }
+
+}
+
+
+
+#about {
+background-attachment: fixed;
+background-origin: initial;
+background-clip: initial;
+background-size: cover;
+background-repeat:no-repeat;
+background-position:100% 0;
+position:relative;
+min-height:400px;
+background-color:#fff;
+}
+
+h2{
+	color:#7ac943;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:lighter;
+	font-size:27px;
+}
+
+h3{
+	color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:30px;
+}
+
+h4{
+	color:#55abda;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:60px;
+	margin-bottom:0;
+	margin-left:2%;
+}
+
+.logo{ 
+	margin:0 auto;
+	margin-left:43%;
+	padding-top:6px;
+}
+
+.banner{
+	margin:0 auto;
+	margin-left:35%;
+	margin-top:-15px;
+}
+
+.banner2{
+	margin:0 auto;
+	margin-top:-20px;
+}
+
+#circles{
+	text-align:center;
+	position:relative;
+}
+
+.cf {
+	position:relative;
+	height:auto;
+	width:25%;
+	margin:0 auto;
+	display:inline-block;
+	padding:3%;
+}
+
+#description{
+	width:90%;
+	margin:0 auto;
+
+}
+
+#george{
+	float:left;
+}
+
+#side{
+	width:60%;
+	float:right;
+	margin-top:-29%;
+	
+}
+
+#side p{
+	font-size:40px;
+	color:#55abda;
+}
+
+
+/*header for all pages except home*/
+
+header{
+	width:100%;
+	margin:0 auto;
+}
+
+.logo2{
+	float:left;
+	padding-top:7px;
+}
+
+#nav{ 
+	width:85%;
+	float:right;
+	margin-top:3%;
+}
+
+#nav img{ 
+	padding-left:2%;
+}
+
+hr{
+	border-bottom-style:solid;
+	border-bottom-width:12px;
+	border-bottom-color:#c1272d;
+	width:100%;
+	margin-bottom:1%;
+}
+
+#head{
+	width:93%;
+	margin: 0 auto;
+	padding-bottom:14%;
+}
+
+/*stripes*/
+
+.module {
+  margin-top:-1%;
+  
+}
+
+.stripe-5 {
+  color: white;
+  background: linear-gradient(
+    to bottom,
+    #55abda,
+    #55abda 50%,
+    #5bb2d8 50%,
+    #5bb2d8
+  );
+  background-size: 100% 30px;
+   	padding-top:20px;
+	padding-bottom:20px;
+} 
+
+.stripe-5 img{
+	margin-left:8%;
+	border-style:solid;
+	border-width:1em;
+	border-color:#fff;
+	border-radius:20px;
+} 
+
+.stripe-4 {
+  color: white;
+  background: linear-gradient(
+    to bottom,
+    #7ac943,
+    #7ac943 50%,
+    #85ce4d 50%,
+    #85ce4d
+  );
+	background-size: 100% 30px;
+	padding-top:20px;
+	padding-bottom:40px;
+	height:150px;
+}
+
+.stripe-3 {
+  color: white;
+  background: linear-gradient(
+    to bottom,
+    #55abda,
+    #55abda 50%,
+    #5bb2d8 50%,
+    #5bb2d8
+  );
+  background-size: 100% 30px;
+   	padding-top:20px;
+	padding-bottom:20px;
+} 
+
+.stripe-3 img{
+	margin-left:3%;
+} 
+ 
+
+/*lesson button*/
+
+.lesson{
+	margin-top:-38%;
+	position:absolute;
+	margin-left:55%;
+	
+}
+
+/*lesson main page*/
+
+.lesson_pics img{
+	float:left;
+	margin-right:4%;
+	border-color:#F90;
+	border-style:solid;
+	border-radius:40px;
+	border-width:20px;
+}
+
+.lesson_pics{
+	min-width:800px;
+	padding-top:30px;
+	padding-bottom:30px;
+	margin-left:7%;
+	margin-bottom: 35%;
+}
+
+/*footer*/
+
+footer{
+	width:100%;
+	background-color:#7ac943;
+	min-width:900px;
+	clear:both;
+}
+
+#footer_left {
+    text-align:left;
+	float:left;
+	padding-left:20px;
+	width:30%;
+}
+#footer_middle {
+    text-align:left;
+    border-left: 3px solid;
+	border-right: 3px solid;
+	float:left;
+	padding-left:2%;
+	width:30%;
+}
+#footer_right {
+    text-align:left;
+	float:left;
+	width:30%;
+	padding-left:2%;
+}
+
+/*scale buttons*/
+
+#nav:hover img {
+
+transform: scale(.9);
+
+}
+
+#nav img:hover {
+
+transform: scale(1.1);
+
+}
+
+#circles img:hover {
+
+transform: scale(1.09);
+
+}
+
+/*game style*/
+.game{
+	float:left;
+}
+
+.design{
+	float:right;
+	position:absolute;
+	margin-top:1%;
+}
+
+.search{
+	float:right;
+	position:absolute;
+	margin-top:21%;
+}
+
+/*lesson start buttons*/
+
+#buttons{
+	margin-top:20%;
+	position:absolute;
+	margin-left:3%;
+	min-width:800px;
+}
+
+#buttons img{
+	float:left;
+	margin-right:10%;
+	padding:20px;
+	border:none;
+}
+
+/* more games*/
+
+#more{
+	margin-left:1%;
+	padding-bottom:50px;
+	padding-top:130px;
+}
+
+#more img{
+	padding-bottom:50px;
+}
+
+
+/* cloud nav*/
+nav{
+	margin-top:-20%;
+	margin-left:10%;
+}
+
+nav ul{
+	list-style-type:none;
+	margin-top:0;	
+	
+}
+
+nav li{ 
+	float:left;
+}
+
+#li{
+	margin-left:60%;
+	
+}
+
+#li2{
+		float:left;
+		margin-top:-40px;
+		margin-left:5%;
+}
+
+#li3{
+	float:right;
+	margin-left:79%;
+	margin-top:-70px;
+}
+
+#li4{
+	float:left;
+	margin-top:-40px;
+	margin-left:-5%;
+
+}
+
+/* banner space in lessons*/
+
+.lessons_banner{
+	margin-top:-1%;
+}
+
+/*next and quiz buttons*/
+
+.next{
+	float:right;
+
+}
+
+/*main content*/
+
+#wrapper{
+	width:90%;
+	margin-right:5%;
+	margin-left:5%;
+	margin-top:3%;
+	margin-bottom:15%;
+}
+
+aside{
+	width:38%;
+	float:right;
+}
+
+#money{
+	float:left;
+	width:52%;
+}
+
